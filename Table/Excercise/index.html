@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise problem</title>
+    <style>
+        table {
+            width: 550px;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+        table, td, th {
+            border: 1px solid blue;
+            border-collapse: collapse;
+            font-size: 12px;
+        } 
+        th, td {
+            padding: 10px;
+        }
+        #lb {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <table>
+            <tr id="lb">
+                <td colspan="3" >Invoice#123ABC</td>
+                <td >18 July 2021</td>
+            </tr>
+            <tr>
+                <td colspan="2"> <b>Pay to:</b> <br>    
+                    G Hotel <br>
+                    Madurai
+                </td>
+                <td colspan="2"> <b>Customer:</b><br>
+                    Kaniel Outis <br>
+                    Prision Break
+                </td>
+            </tr>
+            <tr id="lb">
+                <td>Name</td>
+                <td>Quantity</td>
+                <td>MRP</td>
+                <td>Amount</td>
+            </tr>
+            <tr>
+                <td>Briyani</td>
+                <td>3</td>
+                <td>400</td>
+                <td>1200</td>
+            </tr>
+            <tr>
+                <td>Parotta</td>
+                <td>10</td>
+                <td>10</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td id="lb" colspan="3">Sub Total</td>
+                <td>1300</td>
+            </tr>
+            <tr>
+                <td id="lb" colspan="2">Tax</td>
+                <td>10%</td>
+                <td>130</td>
+            </tr>
+            <tr>
+                <td id="lb" colspan="3">Grand Total</td>
+                <td>Rs 1170</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
