@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: #f2f6ff;
+            text-align: center;
+        }
+        h1{
+            font-size: 32px;
+            padding-top: 56px;
+            padding-bottom: 32px;
+        }
+        #register-form{
+            border-color: #ccc;
+            border-width: 1px;
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        #social{
+            width: 50px;
+            height: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+        .input-item{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-top:0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .submit{
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            flood-color: white;
+            border: none;
+        }
+
+    </style>
+    <title>Excercise</title>
+</head>
+<body>
+    <h1>Register</h1>
+
+    <div>
+        <img id="social" src="/images/google-logo-png-open-2000.png" alt="Google-logo">
+        <img id="social" src="/images/fb.png" alt="FB-logo">
+        <img id="social" src="/images/g.svg" alt="GitHub-logo">
+        <img id="social" src="/images/linkedin.png" alt="Linkedin-logo">
+    </div>
+    <form id="register-form">
+        <input class="input-item" type="text" name="Username" placeholder="Username"> <br>
+        <input class="input-item" type="email" name="Email" placeholder="Email"> <br>
+        <input class="input-item" type="password" name="Password" placeholder="Password"> <br>
+        <input class="input-item" type="password" name="Confirm"  placeholder="Confirm Password"> <br>
+        <input class="submit" type="submit" name="Register" value="Register">
+    </form>
+</body>
+</html>
